@@ -1,0 +1,59 @@
+/* Fonts */
+@font-face {
+	font-family: 'Courgette';
+	src: url('../fonts/Courgette-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'WorkSans';
+	src: url('../fonts/WorkSans-Regular.woff2') format('woff2');
+}
+
+/* Global Variables */
+:root {
+	/* Overrides for newcss variables */
+	--nc-font-sans: 'WorkSans';
+	/*--nc-font-mono: 'Courier New';*/
+	
+	--nc-tx-1: #F4F4F4;
+	--nc-tx-2: #F4F4F4;
+
+	--nc-bg-1: #222222;
+	--nc-bg-2: #333333;
+	--nc-bg-3: #333333;
+	
+	--nc-lk-2: #3399EE;
+	--nc-lk-1: #44BBFF;
+	
+	--nc-ac-1: #F45B69;
+	--nc-ac-tx: #0C0C0C;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	background: #FED666;
+	height: 1px;
+	border-bottom: 0;
+}
+
+#header {
+	margin-top: 1rem;
+	margin-bottom: 4rem;
+}
+
+#header h1 {
+	font-family: 'Courgette';
+	border-bottom: 0; 
+}
+
+#footer {
+	text-align: center;
+	margin-top: 4rem;
+}
